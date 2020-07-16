@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company List</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar-fixed nav-extended indigo darken-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="companyReg.html">Add Company</a></li>
+                <li><a href="form.html">Invoice</a></li>
+                <li><a href="companyList.html">Company List</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Company Email </th>
+                    <th>Company Phone</th>
+                    <th>Action</th>
+                    <th>Send Offer</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>$0.87</td>
+                    <td>
+                        <i class="material-icons btn-floating btn-small waves-effect waves-light red modal-trigger">delete</i>
+                        <i class="material-icons btn-floating btn-small waves-effect waves-light green modal-trigger">create</i>
+                        <i class="material-icons btn-floating btn-small waves-effect waves-light amber accent-4 modal-trigger">remove_red_eye</i>
+                    </td>
+                    <td>
+                        <i class="material-icons btn-floating btn-small waves-effect waves-light indigo modal-trigger">send</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alan</td>
+                    <td>Jellybean</td>
+                    <td>$3.76</td>
+                    <td>
+                        <a className="btn-floating btn-small waves-effect waves-light red modal-trigger" href="#modaldelete">
+                    Delete
+                      <i className="material-icons"></i>
+                    </a> {" "}
+                        <a className="btn-floating btn-small waves-effect waves-light amber accent-4 modal-trigger" href="">
+                    Edit
+                      <i className="material-icons"></i>
+                    </a>
+
+                    </td>
+                    <td>
+                        <a className="btn-floating btn-small waves-effect waves-light indigo accent-4 modal-trigger" href="form.html">
+                    send
+                    <i className="material-icons"></i>
+                  </a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>$7.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

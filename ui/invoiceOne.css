@@ -1,0 +1,59 @@
+.invoice-wrapper{
+	margin: 10px auto;
+	max-width: 700px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    
+}
+.invoice-top{
+    padding: 0px 20px;
+    text-align: justify;
+    font-size: xx-small;
+}
+.invoice-upper-mid{
+    padding: 0px 0px;
+    margin-top: -50px;
+    text-align: center;
+}
+.invoice-mid{
+    padding: 0px 0px;
+    margin-top: -150px;
+}
+.invoice-mid-left{
+	margin-top: 60px;
+}
+.invoice-mid-mid{
+	margin-top: 60px;
+}
+.invoice-mid-right{
+    margin-top: 60px;
+    text-align: right;
+}
+.number{
+        text-align: center;
+        margin-top: -40px;
+}
+.invoice-mid-left h6 , .invoice-mid-mid h6,.invoice-mid-mid h2 ,.invoice-mid-right h6{
+
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.invoice-lower-mid{
+	padding: 10px 20px;
+    position: relative;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: small;
+}
+.invoice-bottom{
+	background-color: #ffffff;
+	padding: 0px 20px;
+    position: relative;
+    text-align: justify;
+    margin-top: -30px;
+    font-size: xx-small;
+   
+}

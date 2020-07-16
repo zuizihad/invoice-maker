@@ -1,0 +1,56 @@
+.invoice-wrapper{
+	margin: 10px auto;
+	max-width: 1000px;
+   
+    width: auto;
+    height: auto;
+    
+}
+
+.invoice-top{
+    padding: 0px 20px;
+    text-align: justify;
+    font-size: small;
+}
+
+.invoice-title{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.invoice-address{
+    background-color: #ffffff;
+	padding: 0px 20px;
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+.amount-word{
+    margin-left: 10px;
+}
+.details{
+    margin-left: 100px;
+    font-size:xx-small;
+}
+.invoice-table{
+    border: 1px solid black;
+    padding: 0px;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+thead{
+    background-color: rgb(247, 248, 250);
+    font-size: small;
+    
+}
+th{
+    border: 1px solid black;
+    height: 10px;
+}
+td{
+    border: 1px solid black;
+    font-size: xx-small;
+}

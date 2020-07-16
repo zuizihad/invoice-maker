@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout - eLuminous</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&amp;lang=en" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="invoiceform.css">
+</head>
+
+<body class="white">
+    <header>
+        <nav class="nav-extended nav-fixed materialize-indigo">
+            <div class="nav-wrapper">
+                <a class="brand-logo" id="page-logo" href="index.html">
+                    <i class="material-icons" id="page-logo-icon">brightness_7</i> eLuminous
+                </a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="navtabs" class="tabs tabs-transparent">
+                    <li class="tab"><a class="active" href="#test1">Notices</a></li>
+                    <li class="tab"><a href="#test2">Lab-Works</a></li>
+                    <li class="tab"><a href="#test4">People</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html" class="waves-effect waves-light"><i class="material-icons left">power_settings_new</i>Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-nav">
+            <li>
+                <a target="_blank" class="title" href="https://github.com/e-Luminous/ui">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </li>
+            <li><a target="_blank" class="title" href="login.html">Login</a></li>
+            <li><a target="_blank" class="title" href="registration.html">Registration</a></li>
+        </ul>
+    </header>
+    <div id="load" class="progress blue lighten-4">
+        <div class="indeterminate blue darken-4"></div>
+    </div>
+    <div id="contents">
+        <div id="test1" class="col s12 tabDivs">
+            <div class="row">
+                <div class="col l6 s12 offset-l3 offset-m1">
+                    <ul class="collapsible">
+                        <li class="active">
+                            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Bring Geometry Box Tomorrow</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="test2" class="tabDivs">
+            <div class="row">
+                <div class="col s12 l12">
+                    <div class="card horizontal hoverable">
+                        <div class="card-image" id="coverImage">
+                            <img src="src/lib/svg/undraw_science_fqhl.png">
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l6">
+                                <div class="card-stacked">
+                                    <div class="card-content">
+                                        <div class="imageOfFame card-image"></div>
+                                        <p class="justifyText">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+                                            College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+                                            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                            interested.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 l6">
+                                <div class="card-stacked">
+                                    <div class="card-content">
+                                        <p class="justifyText">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+                                            College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+                                            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                            interested.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experiments-->
+            <div class="row">
+                <div class="col s12 l2">
+                    <div class="card hoverable">
+                        <div class="card-content">
+                            <p><b>Upcoming</b></p>
+                            <br>
+                            <p>Woohoo, no work due soon!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">View all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l10">
+                    <!--Start-->
+                    <div class="row">
+                        <div class="col s12 l12">
+                            <div class="card hoverable">
+                                <div class="card-content">
+                                    <form>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="textarea1">Share something with your class</label>
+                                        </div>
+                                        <p class="right-align">
+                                            <a class="waves-effect waves-light btn transparent grey-text text-darken-2">Cancel</a> &nbsp; <a class="waves-effect waves-light btn materialize-indigo">Post</a>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+
+                    <!--Start-->
+                    <div class="row">
+                        <div class="col s12 l12">
+                            <div class="card hoverable">
+                                <div class="card-content">
+                                    <p class="center-align"><b>Experiment 01 : </b> Determine the source of falling objects by melting marble and measuring distance and time</p>
+                                    <br>
+                                    <form id="exp01Form">
+                                        <table id="exp01Table" class="responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Distance (S) meter</th>
+                                                    <th>Average Time (t) second</th>
+                                                    <th>Average Time Square (t<sup>2</sup>)</th>
+                                                    <th>S/t<sup>2</sup> (ms<sup>-2</sup>)</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody id="exp01TBody">
+                                                <tr>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td ></td>
+                                                    <td ></td>
+                                                </tr>
+                                            </tbody>
+                                        </table><br>
+                                        <p class="right-align">
+                                            <a class="waves-effect waves-light btn transparent grey-text text-darken-2">Cancel</a> &nbsp; <a id="1" class="tblButtonAdder waves-effect waves-light btn pink lighten-2">+ New</a> &nbsp; <button type="submit"
+                                                class="waves-effect waves-light btn materialize-indigo white-text">Save</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+
+                    <!--Start-->
+                    <div class="row">
+                        <div class="col s12 l12">
+                            <div class="card hoverable">
+                                <div class="card-content">
+                                    <p class="center-align bengaliTextHeader"><b>পরীক্ষণ নং ০২ঃ </b> বয়েলের সূত্র যাচাইকরণ</p>
+                                    <br>
+                                    <form id="exp02Form">
+                                        <table id="exp02Table" class="responsive-table">
+                                            <thead>
+                                                <tr class="bengaliText">
+                                                    <th>চাপ (P)</th>
+                                                    <th>আবদ্ধ নলের উপর প্রান্তের পাঠ (a cm)</th>
+                                                    <th>আবদ্ধ নলের পারদ শীর্ষের পাঠ (b cm)</th>
+                                                    <th>খোলা নলের পারদ শীর্ষের পাঠ (c cm)</th>
+                                                    <th>বায়ু স্তম্ভের দৈর্ঘ্য , L=(a-b) cm</th>
+                                                    <th>বদ্ধ ও খোলা নলের পারদ শীর্ষের পাঠ পার্থক্য, H = (c-b) cm </th>
+                                                    <th>আবদ্ধ বায়ুর মোট চাপ P = H±h</th>
+                                                    <th>ফলাফল PV = (H±h)*L</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody id="exp02TBody">
+                                                <tr>
+                                                    <td>
+                                                        <p> <label> <input value="0" checked name="group1" type="radio" /> <span>বায়ু মন্ডলের চাপ</span> </label> </p>
+                                                        <p> <label> <input value="1" name="group1" type="radio" /> <span>বায়ু মন্ডলের চাপের বেশী</span> </label> </p>
+                                                        <p> <label> <input value="2" name="group1" type="radio" /> <span>বায়ু মন্ডলের চাপের কম</span> </label> </p>
+                                                    </td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                    <td contenteditable></td>
+                                                </tr>
+                                            </tbody>
+                                        </table><br>
+                                        <p class="right-align">
+                                            <a class="waves-effect waves-light btn transparent grey-text text-darken-2">Cancel</a> &nbsp; <a id="2" class="tblButtonAdder waves-effect waves-light btn pink lighten-2">+ New</a> &nbsp; <button type="submit"
+                                                class="waves-effect waves-light btn materialize-indigo white-text">Save</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+
+                </div>
+            </div>
+        </div>
+
+        <div id="test4" class="col s12 tabDivs">
+            <div class="row">
+                <div class="col l6 s12 offset-l3 offset-m1">
+                    <h4 class="blue-text text-darken-2">Teacher</h4>
+                    <hr>
+                    <p>
+                        <div class="chip">
+                            <img src="https://materializecss.com/images/yuna.jpg" alt="Contact Person"> Prof.
+                        </div> Joshim Bhai
+                    </p>
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h4>Students</h4>
+                        </li>
+                        <li class="collection-item">Alvin</li>
+                        <li class="collection-item">Alvin</li>
+                        <li class="collection-item">Alvin</li>
+                        <li class="collection-item">Alvin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="src/app/materialize.min.js"></script>
+    <script src="invoiceform.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+</body>
+
+</html>
